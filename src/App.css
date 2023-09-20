@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-data-button{
+    max-width: 100%;
+    padding: 20px;
+    height: 200px;
+    font-size: 300%;
+    background-color: royalblue;
+    border: none;
+    border-radius: 20px;
+}
+
+.get-data-button:hover{
+    color: white;
+    background-color: rgb(31, 65, 166);
+    border-radius: 50px;
+}
+
+.spinner{
+    width: 300px;
+    height: 300px;
+}
